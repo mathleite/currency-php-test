@@ -1,4 +1,4 @@
-### Paliari Engenharia de Software - Avaliação para programado PHP
+### Paliari Engenharia de Software - Avaliação para programador PHP
 Este projeto é uma classe simples para avaliar programadores PHP. A classe Troco no arquivo Troco.php, possui apenas um método, getQtdeNotas, que retorna a um array contendo a quantidade de notas necessárias de cada cédula, para completar o valor em reais passado no parâmetro.
 
 Leia as informações à seguir com atenção, nelas serão dadas todas as instruções para seguir com o teste.
