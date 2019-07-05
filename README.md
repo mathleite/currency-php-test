@@ -4,7 +4,7 @@ Este projeto é uma classe simples para avaliar programadores PHP. A classe Troc
 Leia as informações à seguir com atenção, nelas serão dadas todas as instruções para seguir com o teste.
 
 ## Importante
-- Nao faça forks ou pull requests nesse repositório, faça um clone para a sua máquina e em seguida crie um repositório no seu github.
+- Não faça forks ou pull requests nesse repositório, faça um clone para a sua máquina e em seguida crie um repositório no seu GitHub.
 
 ___
 
@@ -73,7 +73,7 @@ Dentre o valor total de 10.0 da nota será distribuída da seguinte maneira:
  
  ### Instruções para execução do exame
  #### Clonagem e instalação das dependências
- - Faça um clone do projeto para a sua máquina, e mande na sua conta do github.
+ - Faça um clone do projeto para a sua máquina, e mande na sua conta do GitHub.
  - Para instalar as dependências execute o comando ```composer install```
  
  #### Desenvolvimento
