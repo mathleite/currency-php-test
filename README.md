@@ -1,11 +1,11 @@
-### Paliari Engenharia de Software - Avaliação para programador PHP
+## Paliari Engenharia de Software - Avaliação para programador PHP
 Este projeto é uma classe simples para avaliar programadores PHP. A classe Troco no arquivo Troco.php, possui apenas um método, getQtdeNotas, que retorna a um array contendo a quantidade de notas necessárias de cada cédula, para completar o valor em reais passado no parâmetro.
 
 Leia as informações à seguir com atenção, nelas serão dadas todas as instruções para seguir com o teste.
 
 ___
 
-#### Caso de uso:
+### Caso de uso:
 Um cliente pediu uma funcionalidade para seu sistema de troco.
 
 Essa funcionalidade permite que se entre com um valor no sistema e retorne a quantidade de notas e moedas necessária para que se chegue nesse valor.
@@ -16,7 +16,7 @@ Informei ao sistema que precisso retornar R$ 50,15 de troco, o sistema deve me r
 
 O sistema deve garantir o funcionamento dessa funcionalidade com um teste unitário para cada função adicionada.
 
-#### Explicação técnica:
+### Explicação técnica:
 A estrutura desse projeto segue os padrões de desenvolvimento disponíveis em https://www.php-fig.org/psr.
 
 O código deve funcionar com o **PHP 7**.
@@ -47,14 +47,14 @@ Exemplo:
 
 Os testes devem cobrir as funções necessárias para o funcionamento correto.
 
-#### Sobre os testes:
+### Sobre os testes:
 Será um diferencial a escrita de testes para cobrir as funções.
 
 A ferramenta utilizada é o `PHPUnit`, e a documentação está disponível nesse link: https://phpunit.readthedocs.io/pt_BR/latest/
 
 Os testes devem ser criados no namespace `Tests`, dentro da pasta `tests/`
 
-#### Sobre a avaliação
+### Sobre a avaliação
 Dentre os critérios de avaliação estão: qualidade do código escrito(clareza, manutenibilidade, organização), lógica utilizada para resolver o problema, testes.
 
 Dentre o valor total de 10.0 da nota será distribuída da seguinte maneira:
@@ -68,21 +68,26 @@ Dentre o valor total de 10.0 da nota será distribuída da seguinte maneira:
  
  ___
  
- #### Instruções para execução do exame
- ##### Clonagem e instalação das dependências
+ ### Instruções para execução do exame
+ #### Clonagem e instalação das dependências
  - Faça um fork do projeto para o seu github e em seguida clone para a sua máquina.
  - Para instalar as dependências execute o comando ```composer install```
  
- ##### Desenvolvimento
+ #### Desenvolvimento
  - Dentro da pasta `app/` existe uma classe chamada `Troco`, nela existe um método incompleto chamado `getQtdeNotas` e ele deve retornar a quantidade de notas.
  - Sinta-se a vontade para implementar a solução da maneira que quiser, mas lembre que esse método deve retornar um array de chave e valor com as quantidades de notas no modelo informado.
  - Na pasta `console/` existe o arquivo `troco.php` e você pode usá-lo para testar no seu console o retorno do método executando `php console/troco.php [valor]`(substitua [valor] pelo valor em reais. Ex: `php console/troco.php 10`)
  
- ##### Testes
+ #### Testes
  - Os testes devem ser criados utilizando a ferramenta `PHPUnit` e colocados na pasta `tests/` no namespace `Tests` como a classe `TrocoTest`, você pode utilizar essa própria classe para testar.
  - A classe `TrocoTest` possui um teste de exemplo, que deverá ser atualizado ao final da prova.
+ 
+ #### Lista de comandos
+ - Para instalar as dependências navegue até a pasta do projeto e execute `composer install`
+ - Para executar o arquivo pelo console navegue até a pasta do projto e execute `php console/troco.php [valor]`
+ - Para executar os testes unitários navegue até a pasta do projeto e execute `./vendor/bin/phpunit`
 
-#### Considerações
+### Considerações
 Os candidatos com melhores avaliações receberão nosso contato marcando uma entrevista onde conheceremos melhor seu perfil.
 
 **Ao final do teste**, responda o e-mail com o link para o seu repositório com a sua solução.
