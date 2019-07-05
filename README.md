@@ -4,7 +4,7 @@ Este projeto é uma classe simples para avaliar programadores PHP. A classe Troc
 Leia as informações à seguir com atenção, nelas serão dadas todas as instruções para seguir com o teste.
 
 ## Importante
-- Nao faça forks ou pull requests para nesse repositório, faça um clone para a sua máquina e em seguida crie um repositório no seu github.
+- Nao faça forks ou pull requests nesse repositório, faça um clone para a sua máquina e em seguida crie um repositório no seu github.
 
 ___
 
