@@ -46,7 +46,7 @@ Exemplo:
     "0.05" => 0,
     "0.01" => 0,
 ]; 
-// 125.50
+// 225.50
 ```
 
 Os testes devem cobrir as funções necessárias para o funcionamento correto.
