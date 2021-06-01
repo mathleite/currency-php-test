@@ -96,6 +96,4 @@ Dentre o valor total de 10.0 da nota será distribuída da seguinte maneira:
 ### Considerações
 Os candidatos com melhores avaliações receberão nosso contato marcando uma entrevista onde conheceremos melhor seu perfil.
 
-**Ao final do teste**, responda o e-mail com o link para o seu repositório com a sua solução.
-
 Então vamos la: **Let's Coding**
