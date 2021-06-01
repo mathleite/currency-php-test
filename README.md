@@ -6,6 +6,8 @@ Leia as informações à seguir com atenção, nelas serão dadas todas as instr
 ## Importante
 - Não faça forks ou pull requests nesse repositório, faça um clone para a sua máquina e em seguida crie um repositório no seu GitHub.
 
+## Submeter o teste
+Após finalizar o teste, envie o link para o seu repositório e seus dados de contato para o e-mail `rh@paliari.com.br` para que ele seja avaliado, em seguida aguarde nosso contato.
 ___
 
 ### Caso de uso:
