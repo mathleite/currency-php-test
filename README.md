@@ -17,7 +17,7 @@ Essa funcionalidade permite que se entre com um valor no sistema e retorne a qua
 
 Por exemplo:
 
-Informei ao sistema que precisso retornar R$ 50,15 de troco, o sistema deve me retornar o mínimo de notas e moedas necessário para chegar nesse valor, ou seja uma nota de $50,00, uma moeda de R$ 0,10 e uma moeda de R$ 0,05.
+Informei ao sistema que precisso retornar R$ 50,15 de troco, o sistema deve me retornar o mínimo de notas e moedas necessário para chegar nesse valor, ou seja uma nota de R$50,00, uma moeda de R$ 0,10 e uma moeda de R$ 0,05.
 
 O sistema deve garantir o funcionamento dessa funcionalidade com um teste unitário para cada função adicionada.
 
