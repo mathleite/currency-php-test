@@ -1,5 +1,7 @@
 <?php
 
+use helpers\ArrayHelper;
+
 /**
  * Essa classe possui o metodo getQtdeNotas ele não está completo e cabe a você concluí-lo de acordo com os requisitos.
  */
@@ -12,7 +14,15 @@ class Troco
      */
     public function getQtdeNotas(float $reais): array
     {
-        $notas_qtd = [
+        $currencyStructure = $this->retrieveCurrencyStructure();
+        $currenciesOnly = array_keys($currencyStructure);
+        sort($currenciesOnly);
+        return $this->getCurrencies($reais, $currenciesOnly, $currencyStructure);
+    }
+
+    private function retrieveCurrencyStructure(): array
+    {
+        return [
             "100" => 0,
             "50" => 0,
             "20" => 0,
@@ -26,16 +36,16 @@ class Troco
             "0.05" => 0,
             "0.01" => 0,
         ];
+    }
 
-        /*
-         * Coloque o seu código aqui.
-         * Você é livre para criar classes, arquivos e funções da maneira que achar melhor.
-         * Esse método deve retornar a quantidade de notas e moedas necessária para o valor em reais passado para ele
-         *
-         * Exemplo:
-         * getQtdeNotas(100.00); // Deve retornar algo como ['100' => 1]
-         */
+    private function getCurrencies(float $amount, $currencies, array $currencyStructure = []): array
+    {
+        $closestCurrency = ArrayHelper::getClosestMinor($amount, $currencies);
+        $difference = number_format($amount - $closestCurrency, 2);
+        $currencyStructure[$closestCurrency] += 1;
 
-        return $notas_qtd;
+        return $difference > 0
+            ? $this->getCurrencies($difference, $currencies, $currencyStructure)
+            : $currencyStructure;
     }
 }
